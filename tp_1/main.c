@@ -125,7 +125,7 @@ int main()
                     else
                     {
                         resultado=division(numero1,numero2);
-                        printf("El resultado de la division es: %.2f\n", resultado);
+                        printf("El resultado de la division es: %.2f\n", resultado+ 0.0);
                     }
                     }
                 break;
@@ -139,7 +139,7 @@ int main()
                     else
                     {
                         resultado=multiplicacion(numero1,numero2);
-                        printf("El resultado de la multiplicacion es: %.2f\n", resultado);
+                        printf("El resultado de la multiplicacion es: %.2f\n", resultado+ 0.0);
                     }
                 break;
             case '7':
@@ -155,7 +155,7 @@ int main()
 
                         }else
                         {
-                        printf("El factorial del primer operando es: %llu\n", resultadoFactorial);
+                        printf("El factorial del primer operando es: %llu\n", resultadoFactorial+ 0.0);
                         }
                     }
 
@@ -169,9 +169,9 @@ int main()
                     else
                     {
                         resultado=suma(numero1,numero2);
-                        printf("El resultado de la suma es: %.2f\n\n", resultado);
+                        printf("El resultado de la suma es: %.2f\n\n", resultado+ 0.0);
                         resultado=resta(numero1,numero2);
-                        printf("El resultado de la resta es: %.2f\n\n", resultado);
+                        printf("El resultado de la resta es: %.2f\n\n", resultado+ 0.0);
                         if(numero2==0)
                         {
                             printf("La division no se puede realizar si el segundo operando es 0. Por favor ingrese otro numero.\n\n");
@@ -180,10 +180,10 @@ int main()
                         else
                         {
                             resultado=division(numero1,numero2);
-                            printf("El resultado de la division es: %.2f\n\n", resultado);
+                            printf("El resultado de la division es: %.2f\n\n", resultado+ 0.0);
                         }
                         resultado=multiplicacion(numero1,numero2);
-                        printf("El resultado de la multiplicacion es: %.2f\n\n", resultado);
+                        printf("El resultado de la multiplicacion es: %.2f\n\n", resultado+ 0.0);
                         resultadoFactorial=factorial(numero1);
                         if (resultadoFactorial==0)
                         {

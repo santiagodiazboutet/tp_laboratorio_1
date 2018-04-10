@@ -42,3 +42,17 @@
 	<conio.h>
 	"funciones.h"
 
+1523290196 source:c:\test\tp_1\funciones.c
+	<stdio.h>
+	<ctype.h>
+	"funciones.h"
+
+1523290196 c:\test\tp_1\funciones.h
+
+1523396592 source:c:\test\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+

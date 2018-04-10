@@ -5,7 +5,7 @@
  * \return la suma entre los dos numeros
  *
  */
-float suma(float numero1, float numero2);
+float suma(float , float );
 
 /** \brief resta el segundo parametro al primero
  *
@@ -14,7 +14,7 @@ float suma(float numero1, float numero2);
  * \return La diferencia entre los dos numeros
  *
  */
-float resta(float numero1, float numero2);
+float resta(float , float );
 
 /** \brief Multiplica dos numeros entre si
  *
@@ -23,7 +23,7 @@ float resta(float numero1, float numero2);
  * \return El resultado de la multiplicacion
  *
  */
-float multiplicacion(float numero1, float numero2);
+float multiplicacion(float , float );
 
 /** \brief Se divide el primer termino por el segundo
  *
@@ -32,7 +32,7 @@ float multiplicacion(float numero1, float numero2);
  * \return El resultado de la division entre los dos numeros
  *
  */
-float division(float numero1, float numero2);
+float division(float , float );
 
 /** \brief Realiza el factorial del parametro entregado
  *
@@ -40,7 +40,7 @@ float division(float numero1, float numero2);
  * \return El resultado del factorial del numero, o 0 si el factorial no se puede realizar(numeros decimales y negativos)
  *
  */
-unsigned long long int factorial(float numero);
+unsigned long long int factorial(float );
 /** \brief Se chequea el estado
  *
  * \param el divisor de la cuenta
@@ -48,10 +48,10 @@ unsigned long long int factorial(float numero);
  * \return El resultado de la division entre los dos numeros
  *
  */
-int Inicializados(int AInicializado,int BInicializado);
+int Inicializados(int ,int );
 /** \brief Se fija si cada uno de los digitos de la cadena ingresada corresponden a valores numerico, y no mas de un  punto y coma
  *
  * \param La cadena a ser comprobada
  * \return Devuelve 1 si verdadero y 0 si falso
  */
-int validaNumero(char *numeroIngresado);
+int validaNumero(char []);

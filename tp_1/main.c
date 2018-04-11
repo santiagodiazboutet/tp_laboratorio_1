@@ -199,9 +199,9 @@ int main()
             case '9':
                 seguir = 'n';
                 break;
-            //default:
-               // system("cls");
-               // break;
+            default:
+                system("cls");
+                break;
         }
 
     }

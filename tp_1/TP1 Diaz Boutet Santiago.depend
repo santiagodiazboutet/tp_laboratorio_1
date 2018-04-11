@@ -42,28 +42,15 @@
 	<conio.h>
 	"funciones.h"
 
-1523290196 source:c:\test\tp_1\funciones.c
+1523398342 source:c:\test\tp_1\funciones.c
 	<stdio.h>
 	<ctype.h>
 	"funciones.h"
+	<string.h>
 
 1523397713 c:\test\tp_1\funciones.h
 
 1523396592 source:c:\test\tp_1\main.c
-	<stdio.h>
-	<stdlib.h>
-	<ctype.h>
-	<conio.h>
-	"funciones.h"
-
-1523384256 source:c:\users\administrador\desktop\tp_laboratorio_1-master\tp_1\funciones.c
-	<stdio.h>
-	<ctype.h>
-	"funciones.h"
-
-1523384256 c:\users\administrador\desktop\tp_laboratorio_1-master\tp_1\funciones.h
-
-1523457099 source:c:\users\administrador\desktop\tp_laboratorio_1-master\tp_1\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>

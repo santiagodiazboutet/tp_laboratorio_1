@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include"funciones.h"
-
+#include <string.h>
 
 
 float suma (float numero1, float numero2)
@@ -82,9 +82,9 @@ int Inicializados(int AInicializado,int BInicializado)
         }
         return Inicializados;
     }
-int validaNumero(char numeroIngresado[1])
+int validaNumero(char numeroIngresado[])
 {   int esNumero=1;
-    int numeroString=0;
+    int numeroString;
     int acumuladorInvalidos=0;
     int acumuladorPunto=0;
     int acumuladorNegativo=0;
@@ -101,6 +101,10 @@ int validaNumero(char numeroIngresado[1])
         else if((numeroIngresado[numeroString]=='-'))
         {
             acumuladorNegativo++;
+            if(numeroString!=0)
+            {
+                acumuladorInvalidos++;
+            }
         }
         else
        {

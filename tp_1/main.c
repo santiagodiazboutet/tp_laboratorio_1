@@ -87,10 +87,7 @@ int main()
             case '3':
                     system("cls");
                     AyBInicializados=Inicializados(AInicializado,BInicializado);
-                    if(AyBInicializados==0)
-                    {
-                    }
-                    else
+                    if(AyBInicializados!=0)
                     {
                         resultado=suma(numero1,numero2);
                         printf("El resultado de la suma es: %.2f\n", resultado);
@@ -100,11 +97,10 @@ int main()
             case '4':
                     system("cls");
                     AyBInicializados=Inicializados(AInicializado,BInicializado);
-                    if(AyBInicializados==0)
+                    if(AyBInicializados!=0)
                     {
-                    }
-                    else
-                    {
+
+
                     resultado=resta(numero1,numero2);
                     printf("El resultado de la resta es: %.2f\n", resultado);
                     }
@@ -112,11 +108,9 @@ int main()
             case '5':
                     system("cls");
                     AyBInicializados=Inicializados(AInicializado,BInicializado);
-                    if(AyBInicializados==0)
+                    if(AyBInicializados!=0)
                     {
-                    }
-                    else
-                    {if(numero2==0)
+                    if(numero2==0)
                     {
 
                         printf("La division no se puede realizar si el segundo operando es 0. Por favor ingrese otro numero.\n");
@@ -126,17 +120,14 @@ int main()
                     {
                         resultado=division(numero1,numero2);
                         printf("El resultado de la division es: %.2f\n", resultado+ 0.0);
+
                     }
                     }
                 break;
             case '6':
                     system("cls");
                     AyBInicializados=Inicializados(AInicializado,BInicializado);
-                    if(AyBInicializados==0)
-                    {
-
-                    }
-                    else
+                    if(AyBInicializados!=0)
                     {
                         resultado=multiplicacion(numero1,numero2);
                         printf("El resultado de la multiplicacion es: %.2f\n", resultado+ 0.0);
@@ -193,6 +184,7 @@ int main()
                         {
                             printf("El factorial del primer operando es: %llu\n\n", resultadoFactorial);
                         }
+
                     }
 
                 break;

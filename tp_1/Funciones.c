@@ -90,25 +90,24 @@ int validaNumero(char numeroIngresado[])
     int acumuladorNegativo=0;
     for (numeroString=0;numeroIngresado[numeroString];numeroString++)
     {
-       if (isdigit(numeroIngresado[numeroString]))
+       if (isdigit(numeroIngresado[numeroString])!= 1)
        {
-
-       }
-       else if(numeroIngresado[numeroString]=='.')
+            if(numeroIngresado[numeroString]=='.')
         {
-              acumuladorPunto++;
+                acumuladorPunto++;
         }
-        else if((numeroIngresado[numeroString]=='-'))
+            else if((numeroIngresado[numeroString]=='-'))
         {
-            acumuladorNegativo++;
-            if(numeroString!=0)
-            {
-                acumuladorInvalidos++;
-            }
+                acumuladorNegativo++;
+                if (numeroString>0)
+                {
+                    acumuladorInvalidos++;
+                }
         }
-        else
-       {
-           acumuladorInvalidos++;
+            else
+        {
+            acumuladorInvalidos++;
+        }
        }
     }
     if (acumuladorInvalidos>0)
